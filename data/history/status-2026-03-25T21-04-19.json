@@ -1,0 +1,218 @@
+{
+  "groq": {
+    "provider": "groq",
+    "display_name": "Groq",
+    "check_timestamp": "2026-03-25T21:04:19.766558+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (GROQ_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "deepseek": {
+    "provider": "deepseek",
+    "display_name": "DeepSeek",
+    "check_timestamp": "2026-03-25T21:04:19.766623+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (DEEPSEEK_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "google_ai": {
+    "provider": "google_ai",
+    "display_name": "Google AI Studio",
+    "check_timestamp": "2026-03-25T21:04:19.766655+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (GEMINI_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "openrouter": {
+    "provider": "openrouter",
+    "display_name": "OpenRouter",
+    "check_timestamp": "2026-03-25T21:04:19.766677+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (OPENROUTER_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "cerebras": {
+    "provider": "cerebras",
+    "display_name": "Cerebras",
+    "check_timestamp": "2026-03-25T21:04:19.766700+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (CEREBRAS_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "sambanova": {
+    "provider": "sambanova",
+    "display_name": "SambaNova",
+    "check_timestamp": "2026-03-25T21:04:19.766719+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (SAMBANOVA_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "xai": {
+    "provider": "xai",
+    "display_name": "xAI Grok",
+    "check_timestamp": "2026-03-25T21:04:19.766738+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (GROK_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "mistral": {
+    "provider": "mistral",
+    "display_name": "Mistral",
+    "check_timestamp": "2026-03-25T21:04:19.766765+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (MISTRAL_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "together": {
+    "provider": "together",
+    "display_name": "Together AI",
+    "check_timestamp": "2026-03-25T21:04:19.766786+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (TOGETHER_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "cohere": {
+    "provider": "cohere",
+    "display_name": "Cohere",
+    "check_timestamp": "2026-03-25T21:04:19.766804+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (COHERE_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "fireworks": {
+    "provider": "fireworks",
+    "display_name": "Fireworks AI",
+    "check_timestamp": "2026-03-25T21:04:19.766823+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (FIREWORKS_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  },
+  "cloudflare": {
+    "provider": "cloudflare",
+    "display_name": "Cloudflare Workers AI",
+    "check_timestamp": "2026-03-25T21:04:19.766843+00:00",
+    "check_method": "ping_test",
+    "check_region": "unknown",
+    "status": "unknown",
+    "confidence": 50,
+    "models_endpoint": {},
+    "ping_test": {
+      "error": "No API key set (CLOUDFLARE_API_KEY)"
+    },
+    "rate_limits": {},
+    "free_tier_info": {},
+    "changes_log": [],
+    "health_history": {},
+    "_consecutive_failures": 0
+  }
+}

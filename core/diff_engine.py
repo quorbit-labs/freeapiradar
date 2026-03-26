@@ -15,7 +15,7 @@ def load_previous_status(data_dir: Path) -> dict:
     """Load previous status.json, return empty dict if not found."""
     status_file = data_dir / "status.json"
     if status_file.exists():
-        return json.loads(status_file.read_text())
+        return json.loads(status_file.read_text(encoding="utf-8"))
     return {}
 
 
@@ -104,14 +104,14 @@ def save_status(data_dir: Path, all_statuses: dict):
     """Save current status to status.json and append to history."""
     data_dir.mkdir(parents=True, exist_ok=True)
     status_file = data_dir / "status.json"
-    status_file.write_text(json.dumps(all_statuses, indent=2, default=str))
+    status_file.write_text(json.dumps(all_statuses, indent=2, default=str), encoding="utf-8")
 
     # Append snapshot to history
     history_dir = data_dir / "history"
     history_dir.mkdir(exist_ok=True)
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%S")
     snapshot = history_dir / f"status-{ts}.json"
-    snapshot.write_text(json.dumps(all_statuses, indent=2, default=str))
+    snapshot.write_text(json.dumps(all_statuses, indent=2, default=str), encoding="utf-8")
 
 
 def save_changes(data_dir: Path, all_changes: list[dict]):
@@ -120,7 +120,7 @@ def save_changes(data_dir: Path, all_changes: list[dict]):
     existing = []
     if changes_file.exists():
         try:
-            existing = json.loads(changes_file.read_text())
+            existing = json.loads(changes_file.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             existing = []
 
@@ -128,4 +128,4 @@ def save_changes(data_dir: Path, all_changes: list[dict]):
 
     # Keep last 1000 changes
     existing = existing[-1000:]
-    changes_file.write_text(json.dumps(existing, indent=2, default=str))
+    changes_file.write_text(json.dumps(existing, indent=2, default=str), encoding="utf-8")

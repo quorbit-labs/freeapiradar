@@ -152,4 +152,4 @@ Found a provider we're missing? Rate limits changed? Open an issue or PR.
 AGPL-3.0 · Copyright (c) 2026 Quorbit Labs
 """
 
-    readme_path.write_text(readme_content)
+    readme_path.write_text(readme_content, encoding="utf-8")
