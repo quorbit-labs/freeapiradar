@@ -504,5 +504,27 @@
     ],
     "detected_at": "2026-03-25T21:11:19.602172+00:00",
     "provider": "sambanova"
+  },
+  {
+    "field": "models",
+    "old_value": 347,
+    "new_value": 346,
+    "change_type": "model_removed",
+    "detail": [
+      "google/gemini-3-pro-preview"
+    ],
+    "detected_at": "2026-03-27T02:29:53.018695+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 16,
+    "new_value": 17,
+    "change_type": "model_added",
+    "detail": [
+      "gemma-3-12b-it"
+    ],
+    "detected_at": "2026-03-27T02:29:53.018813+00:00",
+    "provider": "sambanova"
   }
 ]
