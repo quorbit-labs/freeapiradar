@@ -526,5 +526,13 @@
     ],
     "detected_at": "2026-03-27T02:29:53.018813+00:00",
     "provider": "sambanova"
+  },
+  {
+    "field": "confidence",
+    "old_value": 30,
+    "new_value": 15,
+    "change_type": "confidence_shift",
+    "detected_at": "2026-03-27T07:10:07.536125+00:00",
+    "provider": "openrouter"
   }
 ]

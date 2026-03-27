@@ -2,15 +2,15 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**4/12 providers responding** · Last checked: 2026-03-27 02:29 UTC
+**4/12 providers responding** · Last checked: 2026-03-27 07:10 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 63 | 253ms | 18 |  |
-| 🟢 | **Cerebras** | 63 | 106ms | 2 |  |
-| 🟢 | **SambaNova** | 63 | 215ms | 17 |  |
+| 🟢 | **Groq** | 66 | 90ms | 18 |  |
+| 🟢 | **Cerebras** | 66 | 201ms | 2 |  |
+| 🟢 | **SambaNova** | 66 | 327ms | 17 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Mistral** | 50 | — | — |  |
@@ -18,13 +18,14 @@
 | ⚪ | **Cohere** | 50 | — | — |  |
 | ⚪ | **Fireworks AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 40 | 291ms | 33 |  |
-| 🔴 | **OpenRouter** | 30 | 127ms | 346 | {"error":{"message":"No endpoints found for deepse... |
+| 🟡 | **Google AI Studio** | 35 | 124ms | 33 |  |
+| 🔴 | **OpenRouter** | 15 | 94ms | 346 | {"error":{"message":"No endpoints found for deepse... |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **openrouter**: confidence_shift — `30` → `15` (2026-03-27T07:10)
 - **sambanova**: model_added — `16` → `17` (2026-03-27T02:29)
 - **openrouter**: model_removed — `347` → `346` (2026-03-27T02:29)
 - **sambanova**: model_added — `0` → `16` (2026-03-25T21:11)
@@ -34,7 +35,6 @@
 - **openrouter**: model_added — `0` → `347` (2026-03-25T21:11)
 - **openrouter**: status_change — `unknown` → `down` (2026-03-25T21:11)
 - **google_ai**: model_added — `0` → `33` (2026-03-25T21:11)
-- **google_ai**: status_change — `unknown` → `degrading` (2026-03-25T21:11)
 
 ## What is this?
 
