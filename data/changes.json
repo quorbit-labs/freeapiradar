@@ -534,5 +534,13 @@
     "change_type": "confidence_shift",
     "detected_at": "2026-03-27T07:10:07.536125+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "confidence",
+    "old_value": 15,
+    "new_value": 0,
+    "change_type": "confidence_shift",
+    "detected_at": "2026-03-27T13:09:22.623286+00:00",
+    "provider": "openrouter"
   }
 ]
