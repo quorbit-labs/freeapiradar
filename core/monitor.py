@@ -11,10 +11,15 @@ updates status.json, and generates README.
 from __future__ import annotations
 
 import asyncio
+import io
 import json
 import sys
 from dataclasses import asdict
 from pathlib import Path
+
+# Ensure stdout can handle Unicode (emoji) on Windows CP1251 terminals
+if hasattr(sys.stdout, "buffer"):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 import httpx
 
