@@ -12,7 +12,7 @@ class OpenRouterAdapter(OpenAICompatibleAdapter):
     base_url = "https://openrouter.ai"
     models_endpoint = "/api/v1/models"
     chat_endpoint = "/api/v1/chat/completions"
-    test_model = "deepseek/deepseek-chat-v3-0324:free"
+    test_model = "meta-llama/llama-3.3-70b-instruct:free"
     api_key_env = "OPENROUTER_API_KEY"
 
     free_tier_info = {
