@@ -15,7 +15,7 @@ class CohereAdapter(ProviderAdapter):
     base_url = "https://api.cohere.com"
     models_endpoint = "/v2/models"
     chat_endpoint = "/v2/chat"
-    test_model = "command-r"
+    test_model = "command-r-08-2024"
     api_key_env = "COHERE_API_KEY"
 
     free_tier_info = {
