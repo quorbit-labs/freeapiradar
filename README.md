@@ -2,29 +2,30 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**7/12 providers responding** · Last checked: 2026-04-05 16:44 UTC
+**8/12 providers responding** · Last checked: 2026-04-05 17:24 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 75 | 256ms | 18 |  |
-| 🟢 | **Cerebras** | 75 | 110ms | 4 |  |
-| 🟢 | **SambaNova** | 75 | 225ms | 17 |  |
-| 🟢 | **Mistral** | 60 | 399ms | 61 |  |
-| 🟢 | **Fireworks AI** | 60 | 288ms | 12 |  |
+| 🟢 | **Groq** | 78 | 91ms | 18 |  |
+| 🟢 | **Cerebras** | 78 | 152ms | 4 |  |
+| 🟢 | **SambaNova** | 78 | 190ms | 17 |  |
+| 🟢 | **Mistral** | 63 | 594ms | 61 |  |
+| 🟢 | **Fireworks AI** | 63 | 506ms | 12 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
+| 🟢 | **Cohere** | 50 | 2049ms | 20 |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🔴 | **Cohere** | 40 | 75ms | 20 | {"id":"c0a00e70-a37e-4c89-9ca4-20452d7ae7e2","mess... |
-| 🟡 | **Google AI Studio** | 20 | 94ms | 34 |  |
-| 🟡 | **OpenRouter** | 20 | 300ms | 349 |  |
+| 🟡 | **Google AI Studio** | 20 | 97ms | 34 |  |
+| 🟡 | **OpenRouter** | 20 | 316ms | 349 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **cohere**: status_change — `down` → `stable` (2026-04-05T17:24)
 - **fireworks**: model_added — `0` → `12` (2026-04-05T16:44)
 - **fireworks**: status_change — `unknown` → `stable` (2026-04-05T16:44)
 - **cohere**: model_added — `0` → `20` (2026-04-05T16:44)
@@ -34,7 +35,6 @@
 - **cerebras**: model_added — `2` → `4` (2026-04-05T16:44)
 - **openrouter**: confidence_shift — `0` → `20` (2026-04-05T16:44)
 - **openrouter**: model_removed — `346` → `349` (2026-04-05T16:44)
-- **openrouter**: model_added — `346` → `349` (2026-04-05T16:44)
 
 ## What is this?
 
