@@ -7,6 +7,9 @@ on:
     - cron: '0 */6 * * *'    # every 6 hours
   workflow_dispatch:           # manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
