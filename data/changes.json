@@ -787,5 +787,16 @@
     "change_type": "status_change",
     "detected_at": "2026-04-05T17:24:34.260963+00:00",
     "provider": "cohere"
+  },
+  {
+    "field": "models",
+    "old_value": 349,
+    "new_value": 348,
+    "change_type": "model_removed",
+    "detail": [
+      "allenai/olmo-3.1-32b-think"
+    ],
+    "detected_at": "2026-04-06T02:36:44.134490+00:00",
+    "provider": "openrouter"
   }
 ]
