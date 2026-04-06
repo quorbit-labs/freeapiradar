@@ -798,5 +798,41 @@
     ],
     "detected_at": "2026-04-06T02:36:44.134490+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "status",
+    "old_value": "stable",
+    "new_value": "down",
+    "change_type": "status_change",
+    "detected_at": "2026-04-06T19:02:35.396947+00:00",
+    "provider": "cohere"
+  },
+  {
+    "field": "models",
+    "old_value": 20,
+    "new_value": 20,
+    "change_type": "model_added",
+    "detail": [
+      "embed-v4.0",
+      "c4ai-aya-vision-32b",
+      "command-r7b-12-2024",
+      "embed-multilingual-v3.0-image"
+    ],
+    "detected_at": "2026-04-06T19:02:35.396947+00:00",
+    "provider": "cohere"
+  },
+  {
+    "field": "models",
+    "old_value": 20,
+    "new_value": 20,
+    "change_type": "model_removed",
+    "detail": [
+      "embed-english-light-v2.0",
+      "embed-english-v2.0",
+      "c4ai-aya-expanse-8b",
+      "c4ai-aya-vision-8b"
+    ],
+    "detected_at": "2026-04-06T19:02:35.396947+00:00",
+    "provider": "cohere"
   }
 ]

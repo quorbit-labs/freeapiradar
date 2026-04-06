@@ -2,29 +2,32 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**8/12 providers responding** · Last checked: 2026-04-06 13:13 UTC
+**7/12 providers responding** · Last checked: 2026-04-06 19:02 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 90 | 266ms | 18 |  |
-| 🟢 | **Cerebras** | 90 | 201ms | 4 |  |
-| 🟢 | **SambaNova** | 90 | 197ms | 17 |  |
-| 🟢 | **Mistral** | 75 | 625ms | 61 |  |
-| 🟢 | **Fireworks AI** | 75 | 547ms | 12 |  |
-| 🟢 | **Cohere** | 62 | 2797ms | 20 |  |
+| 🟢 | **Groq** | 93 | 93ms | 18 |  |
+| 🟢 | **Cerebras** | 93 | 1170ms | 4 |  |
+| 🟢 | **SambaNova** | 93 | 560ms | 17 |  |
+| 🟢 | **Mistral** | 78 | 377ms | 61 |  |
+| 🟢 | **Fireworks AI** | 78 | 491ms | 12 |  |
+| 🔴 | **Cohere** | 52 | 30026ms | 20 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 90ms | 34 |  |
-| 🟡 | **OpenRouter** | 20 | 378ms | 348 |  |
+| 🟡 | **Google AI Studio** | 20 | 65ms | 34 |  |
+| 🟡 | **OpenRouter** | 20 | 321ms | 348 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **cohere**: model_removed — `20` → `20` (2026-04-06T19:02)
+- **cohere**: model_added — `20` → `20` (2026-04-06T19:02)
+- **cohere**: status_change — `stable` → `down` (2026-04-06T19:02)
 - **openrouter**: model_removed — `349` → `348` (2026-04-06T02:36)
 - **cohere**: status_change — `down` → `stable` (2026-04-05T17:24)
 - **fireworks**: model_added — `0` → `12` (2026-04-05T16:44)
@@ -32,9 +35,6 @@
 - **cohere**: model_added — `0` → `20` (2026-04-05T16:44)
 - **cohere**: status_change — `unknown` → `down` (2026-04-05T16:44)
 - **mistral**: model_added — `0` → `59` (2026-04-05T16:44)
-- **mistral**: status_change — `unknown` → `stable` (2026-04-05T16:44)
-- **cerebras**: model_added — `2` → `4` (2026-04-05T16:44)
-- **openrouter**: confidence_shift — `0` → `20` (2026-04-05T16:44)
 
 ## What is this?
 
