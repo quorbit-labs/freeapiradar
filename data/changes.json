@@ -834,5 +834,28 @@
     ],
     "detected_at": "2026-04-06T19:02:35.396947+00:00",
     "provider": "cohere"
+  },
+  {
+    "field": "models",
+    "old_value": 17,
+    "new_value": 12,
+    "change_type": "model_removed",
+    "detail": [
+      "Qwen3-32B",
+      "Llama-3.3-Swallow-70B-Instruct-v0.4",
+      "Qwen3-235B",
+      "E5-Mistral-7B-Instruct",
+      "DeepSeek-V3.1-Terminus"
+    ],
+    "detected_at": "2026-04-07T02:31:34.214107+00:00",
+    "provider": "sambanova"
+  },
+  {
+    "field": "status",
+    "old_value": "down",
+    "new_value": "stable",
+    "change_type": "status_change",
+    "detected_at": "2026-04-07T02:31:34.214147+00:00",
+    "provider": "cohere"
   }
 ]
