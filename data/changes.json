@@ -857,5 +857,16 @@
     "change_type": "status_change",
     "detected_at": "2026-04-07T02:31:34.214147+00:00",
     "provider": "cohere"
+  },
+  {
+    "field": "models",
+    "old_value": 59,
+    "new_value": 60,
+    "change_type": "model_added",
+    "detail": [
+      "mistral-moderation-2603"
+    ],
+    "detected_at": "2026-04-07T13:21:46.592340+00:00",
+    "provider": "mistral"
   }
 ]
