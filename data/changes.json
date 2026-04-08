@@ -879,5 +879,30 @@
     ],
     "detected_at": "2026-04-07T19:05:06.160103+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 349,
+    "new_value": 352,
+    "change_type": "model_added",
+    "detail": [
+      "google/gemma-4-26b-a4b-it:free",
+      "google/gemma-4-31b-it:free",
+      "anthropic/claude-opus-4.6-fast",
+      "qwen/qwen3.6-plus"
+    ],
+    "detected_at": "2026-04-08T02:32:24.463340+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 349,
+    "new_value": 352,
+    "change_type": "model_removed",
+    "detail": [
+      "qwen/qwen3.6-plus:free"
+    ],
+    "detected_at": "2026-04-08T02:32:24.463340+00:00",
+    "provider": "openrouter"
   }
 ]
