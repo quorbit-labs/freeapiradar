@@ -934,5 +934,28 @@
     "change_type": "status_change",
     "detected_at": "2026-04-09T13:43:14.933921+00:00",
     "provider": "mistral"
+  },
+  {
+    "field": "status",
+    "old_value": "degrading",
+    "new_value": "stable",
+    "change_type": "status_change",
+    "detected_at": "2026-04-09T19:08:29.158654+00:00",
+    "provider": "mistral"
+  },
+  {
+    "field": "models",
+    "old_value": 60,
+    "new_value": 65,
+    "change_type": "model_added",
+    "detail": [
+      "mistral-medium-3",
+      "mistral-medium-3.5.0",
+      "mistral-medium-2604",
+      "mistral-medium-3.5",
+      "mistral-medium-c21211-r0-75"
+    ],
+    "detected_at": "2026-04-09T19:08:29.158654+00:00",
+    "provider": "mistral"
   }
 ]
