@@ -904,5 +904,27 @@
     ],
     "detected_at": "2026-04-08T02:32:24.463340+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 352,
+    "new_value": 351,
+    "change_type": "model_removed",
+    "detail": [
+      "stepfun/step-3.5-flash:free"
+    ],
+    "detected_at": "2026-04-09T02:27:35.079865+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 12,
+    "new_value": 13,
+    "change_type": "model_added",
+    "detail": [
+      "accounts/fireworks/models/glm-5p1"
+    ],
+    "detected_at": "2026-04-09T02:27:35.080075+00:00",
+    "provider": "fireworks"
   }
 ]
