@@ -968,5 +968,31 @@
     ],
     "detected_at": "2026-04-10T02:39:00.862302+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 65,
+    "new_value": 60,
+    "change_type": "model_removed",
+    "detail": [
+      "mistral-medium-2604",
+      "mistral-medium-3",
+      "mistral-medium-c21211-r0-75",
+      "mistral-medium-3.5.0",
+      "mistral-medium-3.5"
+    ],
+    "detected_at": "2026-04-10T07:43:38.675289+00:00",
+    "provider": "mistral"
+  },
+  {
+    "field": "models",
+    "old_value": 13,
+    "new_value": 12,
+    "change_type": "model_removed",
+    "detail": [
+      "accounts/fireworks/models/glm-4p7"
+    ],
+    "detected_at": "2026-04-10T07:43:38.675326+00:00",
+    "provider": "fireworks"
   }
 ]
