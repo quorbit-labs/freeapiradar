@@ -957,5 +957,16 @@
     ],
     "detected_at": "2026-04-09T19:08:29.158654+00:00",
     "provider": "mistral"
+  },
+  {
+    "field": "models",
+    "old_value": 351,
+    "new_value": 350,
+    "change_type": "model_removed",
+    "detail": [
+      "arcee-ai/trinity-mini:free"
+    ],
+    "detected_at": "2026-04-10T02:39:00.862302+00:00",
+    "provider": "openrouter"
   }
 ]
