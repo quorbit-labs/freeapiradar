@@ -1002,5 +1002,13 @@
     "change_type": "status_change",
     "detected_at": "2026-04-11T02:23:57.188515+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "status",
+    "old_value": "stable",
+    "new_value": "degrading",
+    "change_type": "status_change",
+    "detected_at": "2026-04-11T07:02:17.478383+00:00",
+    "provider": "openrouter"
   }
 ]
