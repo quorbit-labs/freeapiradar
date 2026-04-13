@@ -1021,5 +1021,54 @@
     ],
     "detected_at": "2026-04-13T02:46:32.954360+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 349,
+    "new_value": 350,
+    "change_type": "model_added",
+    "detail": [
+      "openrouter/elephant-alpha"
+    ],
+    "detected_at": "2026-04-13T19:15:47.480039+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "status",
+    "old_value": "stable",
+    "new_value": "down",
+    "change_type": "status_change",
+    "detected_at": "2026-04-13T19:15:47.480186+00:00",
+    "provider": "cohere"
+  },
+  {
+    "field": "models",
+    "old_value": 20,
+    "new_value": 0,
+    "change_type": "model_removed",
+    "detail": [
+      "embed-multilingual-light-v3.0-image",
+      "c4ai-aya-expanse-32b",
+      "rerank-multilingual-v3.0",
+      "tiny-aya-water",
+      "rerank-v4.0-pro",
+      "command-r7b-arabic-02-2025",
+      "c4ai-aya-vision-32b",
+      "command-r-08-2024",
+      "embed-english-v3.0",
+      "embed-english-light-v3.0",
+      "embed-multilingual-v3.0-image",
+      "embed-english-light-v3.0-image",
+      "command-a-vision-07-2025",
+      "embed-multilingual-light-v3.0",
+      "tiny-aya-fire",
+      "embed-english-v3.0-image",
+      "command-r7b-12-2024",
+      "embed-v4.0",
+      "command-a-reasoning-08-2025",
+      "rerank-v4.0-fast"
+    ],
+    "detected_at": "2026-04-13T19:15:47.480186+00:00",
+    "provider": "cohere"
   }
 ]

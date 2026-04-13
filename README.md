@@ -2,29 +2,32 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**8/12 providers responding** · Last checked: 2026-04-13 13:28 UTC
+**7/12 providers responding** · Last checked: 2026-04-13 19:15 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 100 | 136ms | 18 |  |
-| 🟢 | **Cerebras** | 100 | 213ms | 4 |  |
-| 🟢 | **SambaNova** | 100 | 5068ms | 12 |  |
-| 🟢 | **Mistral** | 100 | 429ms | 62 |  |
-| 🟢 | **Cohere** | 100 | 417ms | 20 |  |
-| 🟢 | **Fireworks AI** | 100 | 2004ms | 12 |  |
+| 🟢 | **Groq** | 100 | 228ms | 18 |  |
+| 🟢 | **Cerebras** | 100 | 192ms | 4 |  |
+| 🟢 | **SambaNova** | 100 | 361ms | 12 |  |
+| 🟢 | **Mistral** | 100 | 755ms | 62 |  |
+| 🟢 | **Fireworks AI** | 100 | 345ms | 12 |  |
+| 🔴 | **Cohere** | 90 | 47ms | 0 | {"id":"51aeebd1-f934-41d1-bb2e-224ce47447c2","mess... |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 94ms | 34 |  |
-| 🟡 | **OpenRouter** | 20 | 275ms | 349 |  |
+| 🟡 | **Google AI Studio** | 20 | 75ms | 34 |  |
+| 🟡 | **OpenRouter** | 20 | 233ms | 350 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **cohere**: model_removed — `20` → `0` (2026-04-13T19:15)
+- **cohere**: status_change — `stable` → `down` (2026-04-13T19:15)
+- **openrouter**: model_added — `349` → `350` (2026-04-13T19:15)
 - **openrouter**: model_removed — `350` → `349` (2026-04-13T02:46)
 - **openrouter**: status_change — `stable` → `degrading` (2026-04-11T07:02)
 - **openrouter**: status_change — `degrading` → `stable` (2026-04-11T02:23)
@@ -32,9 +35,6 @@
 - **mistral**: model_removed — `65` → `60` (2026-04-10T07:43)
 - **openrouter**: model_removed — `351` → `350` (2026-04-10T02:39)
 - **mistral**: model_added — `60` → `65` (2026-04-09T19:08)
-- **mistral**: status_change — `degrading` → `stable` (2026-04-09T19:08)
-- **mistral**: status_change — `stable` → `degrading` (2026-04-09T13:43)
-- **fireworks**: model_added — `12` → `13` (2026-04-09T02:27)
 
 ## What is this?
 
