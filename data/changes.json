@@ -1010,5 +1010,16 @@
     "change_type": "status_change",
     "detected_at": "2026-04-11T07:02:17.478383+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 350,
+    "new_value": 349,
+    "change_type": "model_removed",
+    "detail": [
+      "eleutherai/llemma_7b"
+    ],
+    "detected_at": "2026-04-13T02:46:32.954360+00:00",
+    "provider": "openrouter"
   }
 ]
