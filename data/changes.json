@@ -1108,5 +1108,16 @@
     ],
     "detected_at": "2026-04-14T02:39:04.209052+00:00",
     "provider": "cohere"
+  },
+  {
+    "field": "models",
+    "old_value": 350,
+    "new_value": 349,
+    "change_type": "model_removed",
+    "detail": [
+      "meituan/longcat-flash-chat"
+    ],
+    "detected_at": "2026-04-14T07:48:02.233613+00:00",
+    "provider": "openrouter"
   }
 ]
