@@ -1130,5 +1130,28 @@
     ],
     "detected_at": "2026-04-14T13:28:51.552937+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 34,
+    "new_value": 35,
+    "change_type": "model_added",
+    "detail": [
+      "gemini-robotics-er-1.6-preview"
+    ],
+    "detected_at": "2026-04-14T19:17:35.772600+00:00",
+    "provider": "google_ai"
+  },
+  {
+    "field": "models",
+    "old_value": 348,
+    "new_value": 346,
+    "change_type": "model_removed",
+    "detail": [
+      "qwen/qwen2.5-coder-7b-instruct",
+      "google/gemma-2-9b-it"
+    ],
+    "detected_at": "2026-04-14T19:17:35.772620+00:00",
+    "provider": "openrouter"
   }
 ]
