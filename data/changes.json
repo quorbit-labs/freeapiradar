@@ -1070,5 +1070,43 @@
     ],
     "detected_at": "2026-04-13T19:15:47.480186+00:00",
     "provider": "cohere"
+  },
+  {
+    "field": "status",
+    "old_value": "down",
+    "new_value": "stable",
+    "change_type": "status_change",
+    "detected_at": "2026-04-14T02:39:04.209052+00:00",
+    "provider": "cohere"
+  },
+  {
+    "field": "models",
+    "old_value": 0,
+    "new_value": 20,
+    "change_type": "model_added",
+    "detail": [
+      "embed-v4.0",
+      "embed-multilingual-light-v3.0-image",
+      "embed-english-v3.0",
+      "cohere-transcribe-03-2026",
+      "embed-multilingual-light-v3.0",
+      "command-a-reasoning-08-2025",
+      "command-r7b-12-2024",
+      "embed-english-light-v3.0-image",
+      "embed-english-light-v3.0",
+      "command-r7b-arabic-02-2025",
+      "embed-english-v3.0-image",
+      "command-r-plus-08-2024",
+      "c4ai-aya-vision-32b",
+      "command-r-08-2024",
+      "command-a-translate-08-2025",
+      "embed-multilingual-v3.0",
+      "command-a-vision-07-2025",
+      "command-a-03-2025",
+      "embed-multilingual-v3.0-image",
+      "c4ai-aya-expanse-32b"
+    ],
+    "detected_at": "2026-04-14T02:39:04.209052+00:00",
+    "provider": "cohere"
   }
 ]

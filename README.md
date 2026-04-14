@@ -2,29 +2,31 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**7/12 providers responding** · Last checked: 2026-04-13 19:15 UTC
+**8/12 providers responding** · Last checked: 2026-04-14 02:39 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 100 | 228ms | 18 |  |
-| 🟢 | **Cerebras** | 100 | 192ms | 4 |  |
-| 🟢 | **SambaNova** | 100 | 361ms | 12 |  |
-| 🟢 | **Mistral** | 100 | 755ms | 62 |  |
-| 🟢 | **Fireworks AI** | 100 | 345ms | 12 |  |
-| 🔴 | **Cohere** | 90 | 47ms | 0 | {"id":"51aeebd1-f934-41d1-bb2e-224ce47447c2","mess... |
+| 🟢 | **Groq** | 100 | 262ms | 18 |  |
+| 🟢 | **Cerebras** | 100 | 96ms | 4 |  |
+| 🟢 | **SambaNova** | 100 | 196ms | 12 |  |
+| 🟢 | **Mistral** | 100 | 10893ms | 62 |  |
+| 🟢 | **Cohere** | 100 | 652ms | 20 |  |
+| 🟢 | **Fireworks AI** | 100 | 352ms | 12 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 75ms | 34 |  |
-| 🟡 | **OpenRouter** | 20 | 233ms | 350 |  |
+| 🟡 | **Google AI Studio** | 20 | 198ms | 34 |  |
+| 🟡 | **OpenRouter** | 20 | 335ms | 350 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **cohere**: model_added — `0` → `20` (2026-04-14T02:39)
+- **cohere**: status_change — `down` → `stable` (2026-04-14T02:39)
 - **cohere**: model_removed — `20` → `0` (2026-04-13T19:15)
 - **cohere**: status_change — `stable` → `down` (2026-04-13T19:15)
 - **openrouter**: model_added — `349` → `350` (2026-04-13T19:15)
@@ -33,8 +35,6 @@
 - **openrouter**: status_change — `degrading` → `stable` (2026-04-11T02:23)
 - **fireworks**: model_removed — `13` → `12` (2026-04-10T07:43)
 - **mistral**: model_removed — `65` → `60` (2026-04-10T07:43)
-- **openrouter**: model_removed — `351` → `350` (2026-04-10T02:39)
-- **mistral**: model_added — `60` → `65` (2026-04-09T19:08)
 
 ## What is this?
 
