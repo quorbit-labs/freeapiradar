@@ -1119,5 +1119,16 @@
     ],
     "detected_at": "2026-04-14T07:48:02.233613+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 349,
+    "new_value": 348,
+    "change_type": "model_removed",
+    "detail": [
+      "nvidia/llama-3.1-nemotron-ultra-253b-v1"
+    ],
+    "detected_at": "2026-04-14T13:28:51.552937+00:00",
+    "provider": "openrouter"
   }
 ]
