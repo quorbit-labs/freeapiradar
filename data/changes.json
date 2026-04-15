@@ -1153,5 +1153,40 @@
     ],
     "detected_at": "2026-04-14T19:17:35.772620+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 346,
+    "new_value": 344,
+    "change_type": "model_removed",
+    "detail": [
+      "inception/mercury-coder",
+      "inception/mercury"
+    ],
+    "detected_at": "2026-04-15T02:37:01.081983+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 12,
+    "new_value": 10,
+    "change_type": "model_removed",
+    "detail": [
+      "DeepSeek-R1-0528",
+      "Meta-Llama-3.1-8B-Instruct"
+    ],
+    "detected_at": "2026-04-15T02:37:01.082108+00:00",
+    "provider": "sambanova"
+  },
+  {
+    "field": "models",
+    "old_value": 12,
+    "new_value": 13,
+    "change_type": "model_added",
+    "detail": [
+      "accounts/fireworks/models/minimax-m2p7"
+    ],
+    "detected_at": "2026-04-15T02:37:01.082162+00:00",
+    "provider": "fireworks"
   }
 ]
