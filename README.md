@@ -2,29 +2,31 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**8/12 providers responding** · Last checked: 2026-04-16 13:47 UTC
+**8/12 providers responding** · Last checked: 2026-04-16 19:16 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 100 | 299ms | 16 |  |
-| 🟢 | **Cerebras** | 100 | 284ms | 4 |  |
-| 🟢 | **SambaNova** | 100 | 506ms | 9 |  |
+| 🟢 | **Groq** | 100 | 247ms | 16 |  |
+| 🟢 | **Cerebras** | 100 | 219ms | 4 |  |
+| 🟢 | **SambaNova** | 100 | 225ms | 8 |  |
 | 🟢 | **Mistral** | 100 | 397ms | 62 |  |
-| 🟢 | **Cohere** | 100 | 266ms | 20 |  |
-| 🟢 | **Fireworks AI** | 100 | 441ms | 13 |  |
+| 🟢 | **Cohere** | 100 | 483ms | 20 |  |
+| 🟢 | **Fireworks AI** | 100 | 617ms | 13 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 61ms | 36 |  |
-| 🟡 | **OpenRouter** | 20 | 200ms | 345 |  |
+| 🟡 | **Google AI Studio** | 20 | 180ms | 36 |  |
+| 🟡 | **OpenRouter** | 20 | 311ms | 346 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **sambanova**: model_removed — `9` → `8` (2026-04-16T19:16)
+- **openrouter**: model_added — `345` → `346` (2026-04-16T19:16)
 - **groq**: model_removed — `18` → `16` (2026-04-16T07:48)
 - **sambanova**: model_removed — `10` → `9` (2026-04-16T02:44)
 - **openrouter**: model_added — `344` → `345` (2026-04-15T19:20)
@@ -33,8 +35,6 @@
 - **sambanova**: model_removed — `12` → `10` (2026-04-15T02:37)
 - **openrouter**: model_removed — `346` → `344` (2026-04-15T02:37)
 - **openrouter**: model_removed — `348` → `346` (2026-04-14T19:17)
-- **google_ai**: model_added — `34` → `35` (2026-04-14T19:17)
-- **openrouter**: model_removed — `349` → `348` (2026-04-14T13:28)
 
 ## What is this?
 

@@ -1233,5 +1233,27 @@
     ],
     "detected_at": "2026-04-16T07:48:33.249739+00:00",
     "provider": "groq"
+  },
+  {
+    "field": "models",
+    "old_value": 345,
+    "new_value": 346,
+    "change_type": "model_added",
+    "detail": [
+      "anthropic/claude-opus-4.7"
+    ],
+    "detected_at": "2026-04-16T19:16:54.763312+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 9,
+    "new_value": 8,
+    "change_type": "model_removed",
+    "detail": [
+      "DeepSeek-R1-Distill-Llama-70B"
+    ],
+    "detected_at": "2026-04-16T19:16:54.763423+00:00",
+    "provider": "sambanova"
   }
 ]
