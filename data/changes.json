@@ -1210,5 +1210,16 @@
     ],
     "detected_at": "2026-04-15T19:20:25.355774+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 10,
+    "new_value": 9,
+    "change_type": "model_removed",
+    "detail": [
+      "DeepSeek-V3-0324"
+    ],
+    "detected_at": "2026-04-16T02:44:45.042213+00:00",
+    "provider": "sambanova"
   }
 ]
