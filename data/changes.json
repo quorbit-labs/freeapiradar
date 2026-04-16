@@ -1221,5 +1221,17 @@
     ],
     "detected_at": "2026-04-16T02:44:45.042213+00:00",
     "provider": "sambanova"
+  },
+  {
+    "field": "models",
+    "old_value": 18,
+    "new_value": 16,
+    "change_type": "model_removed",
+    "detail": [
+      "moonshotai/kimi-k2-instruct-0905",
+      "moonshotai/kimi-k2-instruct"
+    ],
+    "detected_at": "2026-04-16T07:48:33.249739+00:00",
+    "provider": "groq"
   }
 ]
