@@ -1255,5 +1255,16 @@
     ],
     "detected_at": "2026-04-16T19:16:54.763423+00:00",
     "provider": "sambanova"
+  },
+  {
+    "field": "models",
+    "old_value": 346,
+    "new_value": 345,
+    "change_type": "model_removed",
+    "detail": [
+      "allenai/olmo-2-0325-32b-instruct"
+    ],
+    "detected_at": "2026-04-17T02:39:28.529481+00:00",
+    "provider": "openrouter"
   }
 ]
