@@ -1277,5 +1277,17 @@
     ],
     "detected_at": "2026-04-17T19:02:20.845862+00:00",
     "provider": "fireworks"
+  },
+  {
+    "field": "models",
+    "old_value": 345,
+    "new_value": 343,
+    "change_type": "model_removed",
+    "detail": [
+      "qwen/qwen2.5-vl-32b-instruct",
+      "meta-llama/llama-guard-4-12b:free"
+    ],
+    "detected_at": "2026-04-18T02:30:58.493996+00:00",
+    "provider": "openrouter"
   }
 ]
