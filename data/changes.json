@@ -1300,5 +1300,27 @@
     ],
     "detected_at": "2026-04-19T02:46:11.827232+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 342,
+    "new_value": 343,
+    "change_type": "model_added",
+    "detail": [
+      "moonshotai/kimi-k2.6"
+    ],
+    "detected_at": "2026-04-20T19:07:13.780700+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 12,
+    "new_value": 13,
+    "change_type": "model_added",
+    "detail": [
+      "accounts/fireworks/models/kimi-k2p6"
+    ],
+    "detected_at": "2026-04-20T19:07:13.780868+00:00",
+    "provider": "fireworks"
   }
 ]
