@@ -1322,5 +1322,17 @@
     ],
     "detected_at": "2026-04-20T19:07:13.780868+00:00",
     "provider": "fireworks"
+  },
+  {
+    "field": "models",
+    "old_value": 13,
+    "new_value": 11,
+    "change_type": "model_removed",
+    "detail": [
+      "accounts/cogito/models/cogito-671b-v2-p1",
+      "accounts/fireworks/models/kimi-k2p6"
+    ],
+    "detected_at": "2026-04-21T02:40:32.760516+00:00",
+    "provider": "fireworks"
   }
 ]
