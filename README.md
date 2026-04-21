@@ -2,29 +2,31 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**7/12 providers responding** · Last checked: 2026-04-21 07:52 UTC
+**8/12 providers responding** · Last checked: 2026-04-21 13:43 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 100 | 242ms | 16 |  |
-| 🟢 | **Cerebras** | 100 | 142ms | 4 |  |
-| 🟢 | **SambaNova** | 100 | 428ms | 8 |  |
-| 🟢 | **Cohere** | 100 | 3307ms | 20 |  |
-| 🟢 | **Fireworks AI** | 100 | 973ms | 11 |  |
-| 🔴 | **Mistral** | 90 | 1310ms | 62 | {"object":"error","message":"Internal server error... |
+| 🟢 | **Groq** | 100 | 137ms | 16 |  |
+| 🟢 | **Cerebras** | 100 | 134ms | 4 |  |
+| 🟢 | **SambaNova** | 100 | 1303ms | 8 |  |
+| 🟢 | **Mistral** | 100 | 607ms | 65 |  |
+| 🟢 | **Cohere** | 100 | 235ms | 20 |  |
+| 🟢 | **Fireworks AI** | 100 | 396ms | 11 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 55ms | 36 |  |
-| 🟡 | **OpenRouter** | 20 | 230ms | 343 |  |
+| 🟡 | **Google AI Studio** | 20 | 66ms | 36 |  |
+| 🟡 | **OpenRouter** | 20 | 222ms | 343 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **mistral**: model_added — `60` → `63` (2026-04-21T13:43)
+- **mistral**: status_change — `down` → `stable` (2026-04-21T13:43)
 - **mistral**: status_change — `stable` → `down` (2026-04-21T07:52)
 - **fireworks**: model_removed — `13` → `11` (2026-04-21T02:40)
 - **fireworks**: model_added — `12` → `13` (2026-04-20T19:07)
@@ -33,8 +35,6 @@
 - **openrouter**: model_removed — `345` → `343` (2026-04-18T02:30)
 - **fireworks**: model_removed — `13` → `12` (2026-04-17T19:02)
 - **openrouter**: model_removed — `346` → `345` (2026-04-17T02:39)
-- **sambanova**: model_removed — `9` → `8` (2026-04-16T19:16)
-- **openrouter**: model_added — `345` → `346` (2026-04-16T19:16)
 
 ## What is this?
 
