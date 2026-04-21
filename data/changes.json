@@ -1334,5 +1334,13 @@
     ],
     "detected_at": "2026-04-21T02:40:32.760516+00:00",
     "provider": "fireworks"
+  },
+  {
+    "field": "status",
+    "old_value": "stable",
+    "new_value": "down",
+    "change_type": "status_change",
+    "detected_at": "2026-04-21T07:52:36.074470+00:00",
+    "provider": "mistral"
   }
 ]
