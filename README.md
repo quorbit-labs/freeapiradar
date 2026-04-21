@@ -2,39 +2,39 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**8/12 providers responding** · Last checked: 2026-04-21 13:43 UTC
+**7/12 providers responding** · Last checked: 2026-04-21 19:14 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 100 | 137ms | 16 |  |
-| 🟢 | **Cerebras** | 100 | 134ms | 4 |  |
-| 🟢 | **SambaNova** | 100 | 1303ms | 8 |  |
-| 🟢 | **Mistral** | 100 | 607ms | 65 |  |
-| 🟢 | **Cohere** | 100 | 235ms | 20 |  |
-| 🟢 | **Fireworks AI** | 100 | 396ms | 11 |  |
+| 🟢 | **Groq** | 100 | 122ms | 16 |  |
+| 🟢 | **SambaNova** | 100 | 738ms | 8 |  |
+| 🟢 | **Mistral** | 100 | 1098ms | 69 |  |
+| 🟢 | **Cohere** | 100 | 287ms | 20 |  |
+| 🟢 | **Fireworks AI** | 100 | 476ms | 11 |  |
+| 🔴 | **Cerebras** | 90 | 86ms | 4 | {"message":"No server is available to handle this ... |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 66ms | 36 |  |
-| 🟡 | **OpenRouter** | 20 | 222ms | 343 |  |
+| 🟡 | **Google AI Studio** | 20 | 104ms | 38 |  |
+| 🟡 | **OpenRouter** | 20 | 259ms | 344 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **mistral**: model_removed — `63` → `67` (2026-04-21T19:14)
+- **mistral**: model_added — `63` → `67` (2026-04-21T19:14)
+- **cerebras**: status_change — `stable` → `down` (2026-04-21T19:14)
+- **openrouter**: model_removed — `343` → `344` (2026-04-21T19:14)
+- **openrouter**: model_added — `343` → `344` (2026-04-21T19:14)
+- **google_ai**: model_added — `36` → `38` (2026-04-21T19:14)
 - **mistral**: model_added — `60` → `63` (2026-04-21T13:43)
 - **mistral**: status_change — `down` → `stable` (2026-04-21T13:43)
 - **mistral**: status_change — `stable` → `down` (2026-04-21T07:52)
 - **fireworks**: model_removed — `13` → `11` (2026-04-21T02:40)
-- **fireworks**: model_added — `12` → `13` (2026-04-20T19:07)
-- **openrouter**: model_added — `342` → `343` (2026-04-20T19:07)
-- **openrouter**: model_removed — `343` → `342` (2026-04-19T02:46)
-- **openrouter**: model_removed — `345` → `343` (2026-04-18T02:30)
-- **fireworks**: model_removed — `13` → `12` (2026-04-17T19:02)
-- **openrouter**: model_removed — `346` → `345` (2026-04-17T02:39)
 
 ## What is this?
 

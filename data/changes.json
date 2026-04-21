@@ -1363,5 +1363,74 @@
     ],
     "detected_at": "2026-04-21T13:43:07.453957+00:00",
     "provider": "mistral"
+  },
+  {
+    "field": "models",
+    "old_value": 36,
+    "new_value": 38,
+    "change_type": "model_added",
+    "detail": [
+      "deep-research-max-preview-04-2026",
+      "deep-research-preview-04-2026"
+    ],
+    "detected_at": "2026-04-21T19:14:01.792615+00:00",
+    "provider": "google_ai"
+  },
+  {
+    "field": "models",
+    "old_value": 343,
+    "new_value": 344,
+    "change_type": "model_added",
+    "detail": [
+      "inclusionai/ling-2.6-flash:free",
+      "openrouter/pareto-code"
+    ],
+    "detected_at": "2026-04-21T19:14:01.792636+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 343,
+    "new_value": 344,
+    "change_type": "model_removed",
+    "detail": [
+      "openrouter/elephant-alpha"
+    ],
+    "detected_at": "2026-04-21T19:14:01.792636+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "status",
+    "old_value": "stable",
+    "new_value": "down",
+    "change_type": "status_change",
+    "detected_at": "2026-04-21T19:14:01.792766+00:00",
+    "provider": "cerebras"
+  },
+  {
+    "field": "models",
+    "old_value": 63,
+    "new_value": 67,
+    "change_type": "model_added",
+    "detail": [
+      "mistral-medium-c21211-r0-75",
+      "mistral-medium-2604",
+      "mistral-medium-3",
+      "mistral-medium-3-5",
+      "mistral-medium-3.5"
+    ],
+    "detected_at": "2026-04-21T19:14:01.792788+00:00",
+    "provider": "mistral"
+  },
+  {
+    "field": "models",
+    "old_value": 63,
+    "new_value": 67,
+    "change_type": "model_removed",
+    "detail": [
+      "qwen3-235b-a22b-mint"
+    ],
+    "detected_at": "2026-04-21T19:14:01.792788+00:00",
+    "provider": "mistral"
   }
 ]
