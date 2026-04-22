@@ -1452,5 +1452,18 @@
     "change_type": "status_change",
     "detected_at": "2026-04-22T02:39:14.036888+00:00",
     "provider": "cerebras"
+  },
+  {
+    "field": "models",
+    "old_value": 346,
+    "new_value": 349,
+    "change_type": "model_added",
+    "detail": [
+      "arcee-ai/trinity-large-preview",
+      "xiaomi/mimo-v2.5",
+      "xiaomi/mimo-v2.5-pro"
+    ],
+    "detected_at": "2026-04-22T19:15:19.604400+00:00",
+    "provider": "openrouter"
   }
 ]
