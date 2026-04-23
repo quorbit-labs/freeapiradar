@@ -1465,5 +1465,47 @@
     ],
     "detected_at": "2026-04-22T19:15:19.604400+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "status",
+    "old_value": "degrading",
+    "new_value": "stable",
+    "change_type": "status_change",
+    "detected_at": "2026-04-23T02:42:43.425727+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 349,
+    "new_value": 348,
+    "change_type": "model_added",
+    "detail": [
+      "baidu/qianfan-ocr-fast:free"
+    ],
+    "detected_at": "2026-04-23T02:42:43.425727+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 349,
+    "new_value": 348,
+    "change_type": "model_removed",
+    "detail": [
+      "arcee-ai/trinity-large-preview:free",
+      "deepcogito/cogito-v2.1-671b"
+    ],
+    "detected_at": "2026-04-23T02:42:43.425727+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 11,
+    "new_value": 12,
+    "change_type": "model_added",
+    "detail": [
+      "accounts/fireworks/models/kimi-k2p6"
+    ],
+    "detected_at": "2026-04-23T02:42:43.425900+00:00",
+    "provider": "fireworks"
   }
 ]
