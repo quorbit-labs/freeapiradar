@@ -1538,5 +1538,33 @@
     ],
     "detected_at": "2026-04-23T07:55:45.495413+00:00",
     "provider": "fireworks"
+  },
+  {
+    "field": "models",
+    "old_value": 349,
+    "new_value": 350,
+    "change_type": "model_added",
+    "detail": [
+      "inclusionai/ling-2.6-1t:free"
+    ],
+    "detected_at": "2026-04-23T19:10:56.597417+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 67,
+    "new_value": 60,
+    "change_type": "model_removed",
+    "detail": [
+      "mistral-medium-c21211-r0-75",
+      "mistral-embed-dim128-2510",
+      "mistral-medium-3-5",
+      "mistral-medium-3",
+      "mistral-medium-2604",
+      "mistral-medium-3.5",
+      "mistral-embed-dim256-2510"
+    ],
+    "detected_at": "2026-04-23T19:10:56.597545+00:00",
+    "provider": "mistral"
   }
 ]

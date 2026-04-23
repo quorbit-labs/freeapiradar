@@ -2,29 +2,31 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**8/12 providers responding** · Last checked: 2026-04-23 13:45 UTC
+**8/12 providers responding** · Last checked: 2026-04-23 19:10 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 100 | 307ms | 16 |  |
-| 🟢 | **Cerebras** | 100 | 111ms | 4 |  |
-| 🟢 | **SambaNova** | 100 | 332ms | 8 |  |
-| 🟢 | **Mistral** | 100 | 358ms | 69 |  |
-| 🟢 | **Cohere** | 100 | 1766ms | 20 |  |
-| 🟢 | **Fireworks AI** | 100 | 245ms | 10 |  |
+| 🟢 | **Groq** | 100 | 205ms | 16 |  |
+| 🟢 | **Cerebras** | 100 | 315ms | 4 |  |
+| 🟢 | **SambaNova** | 100 | 2867ms | 8 |  |
+| 🟢 | **Mistral** | 100 | 436ms | 62 |  |
+| 🟢 | **Cohere** | 100 | 269ms | 20 |  |
+| 🟢 | **Fireworks AI** | 100 | 361ms | 10 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 69ms | 38 |  |
-| 🟡 | **OpenRouter** | 20 | 1088ms | 349 |  |
+| 🟡 | **Google AI Studio** | 20 | 62ms | 38 |  |
+| 🟡 | **OpenRouter** | 20 | 202ms | 350 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **mistral**: model_removed — `67` → `60` (2026-04-23T19:10)
+- **openrouter**: model_added — `349` → `350` (2026-04-23T19:10)
 - **fireworks**: model_removed — `12` → `10` (2026-04-23T07:55)
 - **openrouter**: model_added — `348` → `349` (2026-04-23T07:55)
 - **openrouter**: status_change — `stable` → `degrading` (2026-04-23T07:55)
@@ -33,8 +35,6 @@
 - **openrouter**: model_added — `349` → `348` (2026-04-23T02:42)
 - **openrouter**: status_change — `degrading` → `stable` (2026-04-23T02:42)
 - **openrouter**: model_added — `346` → `349` (2026-04-22T19:15)
-- **cerebras**: status_change — `down` → `stable` (2026-04-22T02:39)
-- **openrouter**: model_added — `344` → `346` (2026-04-22T02:39)
 
 ## What is this?
 
