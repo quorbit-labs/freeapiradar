@@ -1507,5 +1507,36 @@
     ],
     "detected_at": "2026-04-23T02:42:43.425900+00:00",
     "provider": "fireworks"
+  },
+  {
+    "field": "status",
+    "old_value": "stable",
+    "new_value": "degrading",
+    "change_type": "status_change",
+    "detected_at": "2026-04-23T07:55:45.495251+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 348,
+    "new_value": 349,
+    "change_type": "model_added",
+    "detail": [
+      "tencent/hy3-preview:free"
+    ],
+    "detected_at": "2026-04-23T07:55:45.495251+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 12,
+    "new_value": 10,
+    "change_type": "model_removed",
+    "detail": [
+      "accounts/fireworks/models/deepseek-v3p1",
+      "accounts/fireworks/models/gpt-oss-120b"
+    ],
+    "detected_at": "2026-04-23T07:55:45.495413+00:00",
+    "provider": "fireworks"
   }
 ]
