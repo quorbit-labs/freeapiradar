@@ -1566,5 +1566,27 @@
     ],
     "detected_at": "2026-04-23T19:10:56.597545+00:00",
     "provider": "mistral"
+  },
+  {
+    "field": "models",
+    "old_value": 350,
+    "new_value": 351,
+    "change_type": "model_added",
+    "detail": [
+      "deepcogito/cogito-v2.1-671b"
+    ],
+    "detected_at": "2026-04-24T02:43:20.927832+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 10,
+    "new_value": 9,
+    "change_type": "model_removed",
+    "detail": [
+      "accounts/fireworks/models/deepseek-v3p2"
+    ],
+    "detected_at": "2026-04-24T02:43:20.928009+00:00",
+    "provider": "fireworks"
   }
 ]
