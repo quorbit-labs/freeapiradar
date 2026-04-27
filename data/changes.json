@@ -1645,5 +1645,21 @@
     "change_type": "status_change",
     "detected_at": "2026-04-27T08:28:09.652434+00:00",
     "provider": "cohere"
+  },
+  {
+    "field": "status",
+    "old_value": "degrading",
+    "new_value": "down",
+    "change_type": "status_change",
+    "detected_at": "2026-04-27T13:56:16.576031+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "status",
+    "old_value": "down",
+    "new_value": "stable",
+    "change_type": "status_change",
+    "detected_at": "2026-04-27T13:56:16.576252+00:00",
+    "provider": "cohere"
   }
 ]

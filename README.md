@@ -2,29 +2,31 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**7/12 providers responding** · Last checked: 2026-04-27 08:28 UTC
+**7/12 providers responding** · Last checked: 2026-04-27 13:56 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 100 | 300ms | 16 |  |
-| 🟢 | **Cerebras** | 100 | 196ms | 4 |  |
-| 🟢 | **SambaNova** | 100 | 1322ms | 8 |  |
-| 🟢 | **Mistral** | 100 | 819ms | 62 |  |
-| 🟢 | **Fireworks AI** | 100 | 216ms | 9 |  |
-| 🔴 | **Cohere** | 90 | 30033ms | 20 |  |
+| 🟢 | **Groq** | 100 | 295ms | 16 |  |
+| 🟢 | **Cerebras** | 100 | 132ms | 4 |  |
+| 🟢 | **SambaNova** | 100 | 3248ms | 8 |  |
+| 🟢 | **Mistral** | 100 | 567ms | 62 |  |
+| 🟢 | **Cohere** | 100 | 298ms | 20 |  |
+| 🟢 | **Fireworks AI** | 100 | 312ms | 9 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 80ms | 38 |  |
-| 🟡 | **OpenRouter** | 20 | 192ms | 360 |  |
+| 🟡 | **Google AI Studio** | 20 | 116ms | 38 |  |
+| 🔴 | **OpenRouter** | 10 | 327ms | 360 | {"error":{"message":"Provider returned error","cod... |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **cohere**: status_change — `down` → `stable` (2026-04-27T13:56)
+- **openrouter**: status_change — `degrading` → `down` (2026-04-27T13:56)
 - **cohere**: status_change — `stable` → `down` (2026-04-27T08:28)
 - **openrouter**: model_added — `356` → `360` (2026-04-27T08:28)
 - **openrouter**: model_added — `355` → `356` (2026-04-27T02:51)
@@ -33,8 +35,6 @@
 - **fireworks**: model_removed — `10` → `9` (2026-04-24T02:43)
 - **openrouter**: model_added — `350` → `351` (2026-04-24T02:43)
 - **mistral**: model_removed — `67` → `60` (2026-04-23T19:10)
-- **openrouter**: model_added — `349` → `350` (2026-04-23T19:10)
-- **fireworks**: model_removed — `12` → `10` (2026-04-23T07:55)
 
 ## What is this?
 
