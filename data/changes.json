@@ -1623,5 +1623,27 @@
     ],
     "detected_at": "2026-04-27T02:51:53.452154+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 356,
+    "new_value": 360,
+    "change_type": "model_added",
+    "detail": [
+      "qwen/qwen3.6-flash",
+      "qwen/qwen3.6-35b-a3b",
+      "qwen/qwen3.6-max-preview",
+      "qwen/qwen3.5-plus-20260420"
+    ],
+    "detected_at": "2026-04-27T08:28:09.652247+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "status",
+    "old_value": "stable",
+    "new_value": "down",
+    "change_type": "status_change",
+    "detected_at": "2026-04-27T08:28:09.652434+00:00",
+    "provider": "cohere"
   }
 ]
