@@ -1612,5 +1612,16 @@
     ],
     "detected_at": "2026-04-24T18:54:22.941111+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 355,
+    "new_value": 356,
+    "change_type": "model_added",
+    "detail": [
+      "qwen/qwen3.6-27b"
+    ],
+    "detected_at": "2026-04-27T02:51:53.452154+00:00",
+    "provider": "openrouter"
   }
 ]
