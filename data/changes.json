@@ -1681,5 +1681,22 @@
     ],
     "detected_at": "2026-04-27T19:24:11.347429+00:00",
     "provider": "fireworks"
+  },
+  {
+    "field": "models",
+    "old_value": 360,
+    "new_value": 367,
+    "change_type": "model_added",
+    "detail": [
+      "~google/gemini-pro-latest",
+      "~anthropic/claude-haiku-latest",
+      "~anthropic/claude-sonnet-latest",
+      "~moonshotai/kimi-latest",
+      "~openai/gpt-mini-latest",
+      "~google/gemini-flash-latest",
+      "~openai/gpt-latest"
+    ],
+    "detected_at": "2026-04-28T03:20:42.590629+00:00",
+    "provider": "openrouter"
   }
 ]
