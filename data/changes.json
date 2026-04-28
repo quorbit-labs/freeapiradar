@@ -1698,5 +1698,19 @@
     ],
     "detected_at": "2026-04-28T03:20:42.590629+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 367,
+    "new_value": 371,
+    "change_type": "model_added",
+    "detail": [
+      "poolside/laguna-m.1:free",
+      "poolside/laguna-xs.2:free",
+      "inclusionai/ling-2.6-flash",
+      "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+    ],
+    "detected_at": "2026-04-28T19:42:42.169258+00:00",
+    "provider": "openrouter"
   }
 ]
