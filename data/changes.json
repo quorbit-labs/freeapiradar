@@ -1724,5 +1724,13 @@
     ],
     "detected_at": "2026-04-29T02:57:00.565810+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models_count",
+    "old_value": 62,
+    "new_value": 64,
+    "change_type": "models_count_changed",
+    "detected_at": "2026-04-29T08:20:59.889501+00:00",
+    "provider": "mistral"
   }
 ]
