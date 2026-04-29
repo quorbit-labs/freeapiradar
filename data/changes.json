@@ -1712,5 +1712,17 @@
     ],
     "detected_at": "2026-04-28T19:42:42.169258+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 371,
+    "new_value": 369,
+    "change_type": "model_removed",
+    "detail": [
+      "qwen/qwq-32b",
+      "inclusionai/ling-2.6-flash:free"
+    ],
+    "detected_at": "2026-04-29T02:57:00.565810+00:00",
+    "provider": "openrouter"
   }
 ]
