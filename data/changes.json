@@ -1747,5 +1747,16 @@
     ],
     "detected_at": "2026-04-29T19:27:08.893724+00:00",
     "provider": "mistral"
+  },
+  {
+    "field": "models",
+    "old_value": 369,
+    "new_value": 368,
+    "change_type": "model_removed",
+    "detail": [
+      "mistralai/mistral-small-creative"
+    ],
+    "detected_at": "2026-04-30T02:58:10.889434+00:00",
+    "provider": "openrouter"
   }
 ]
