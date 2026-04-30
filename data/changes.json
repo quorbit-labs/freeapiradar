@@ -1769,5 +1769,16 @@
     ],
     "detected_at": "2026-04-30T13:57:56.500505+00:00",
     "provider": "mistral"
+  },
+  {
+    "field": "models",
+    "old_value": 368,
+    "new_value": 369,
+    "change_type": "model_added",
+    "detail": [
+      "openrouter/owl-alpha"
+    ],
+    "detected_at": "2026-04-30T19:23:39.673027+00:00",
+    "provider": "openrouter"
   }
 ]
