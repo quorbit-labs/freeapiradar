@@ -1780,5 +1780,17 @@
     ],
     "detected_at": "2026-04-30T19:23:39.673027+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 369,
+    "new_value": 371,
+    "change_type": "model_added",
+    "detail": [
+      "x-ai/grok-4.3",
+      "ibm-granite/granite-4.1-8b"
+    ],
+    "detected_at": "2026-05-01T03:29:56.250189+00:00",
+    "provider": "openrouter"
   }
 ]
