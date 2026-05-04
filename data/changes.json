@@ -1800,5 +1800,13 @@
     "change_type": "status_change",
     "detected_at": "2026-05-04T02:56:20.985391+00:00",
     "provider": "cerebras"
+  },
+  {
+    "field": "status",
+    "old_value": "degrading",
+    "new_value": "stable",
+    "change_type": "status_change",
+    "detected_at": "2026-05-04T08:31:00.899260+00:00",
+    "provider": "cerebras"
   }
 ]
