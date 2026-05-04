@@ -2,24 +2,24 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**8/12 providers responding** · Last checked: 2026-05-04 08:31 UTC
+**8/12 providers responding** · Last checked: 2026-05-04 14:03 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 100 | 111ms | 16 |  |
-| 🟢 | **Cerebras** | 100 | 253ms | 4 |  |
-| 🟢 | **SambaNova** | 100 | 199ms | 8 |  |
-| 🟢 | **Mistral** | 100 | 489ms | 68 |  |
-| 🟢 | **Cohere** | 100 | 454ms | 20 |  |
-| 🟢 | **Fireworks AI** | 100 | 744ms | 11 |  |
+| 🟢 | **Groq** | 100 | 106ms | 16 |  |
+| 🟢 | **Cerebras** | 100 | 220ms | 4 |  |
+| 🟢 | **SambaNova** | 100 | 1461ms | 8 |  |
+| 🟢 | **Mistral** | 100 | 422ms | 68 |  |
+| 🟢 | **Cohere** | 100 | 790ms | 20 |  |
+| 🟢 | **Fireworks AI** | 100 | 748ms | 11 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 196ms | 38 |  |
-| 🟡 | **OpenRouter** | 20 | 361ms | 371 |  |
+| 🟡 | **Google AI Studio** | 20 | 103ms | 38 |  |
+| 🟡 | **OpenRouter** | 20 | 310ms | 371 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
