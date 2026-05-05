@@ -2,29 +2,32 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**8/12 providers responding** · Last checked: 2026-05-04 19:41 UTC
+**7/12 providers responding** · Last checked: 2026-05-05 02:48 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 100 | 208ms | 16 |  |
-| 🟢 | **Cerebras** | 100 | 180ms | 4 |  |
-| 🟢 | **SambaNova** | 100 | 343ms | 8 |  |
-| 🟢 | **Mistral** | 100 | 417ms | 68 |  |
-| 🟢 | **Cohere** | 100 | 884ms | 20 |  |
-| 🟢 | **Fireworks AI** | 100 | 604ms | 11 |  |
+| 🟢 | **Groq** | 100 | 173ms | 16 |  |
+| 🟢 | **Cerebras** | 100 | 226ms | 4 |  |
+| 🟢 | **SambaNova** | 100 | 636ms | 9 |  |
+| 🟢 | **Mistral** | 100 | 404ms | 68 |  |
+| 🟢 | **Fireworks AI** | 100 | 1012ms | 11 |  |
+| 🔴 | **Cohere** | 90 | 30034ms | 20 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 78ms | 38 |  |
-| 🟡 | **OpenRouter** | 20 | 268ms | 371 |  |
+| 🟡 | **Google AI Studio** | 20 | 161ms | 38 |  |
+| 🟡 | **OpenRouter** | 20 | 370ms | 372 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **cohere**: status_change — `stable` → `down` (2026-05-05T02:48)
+- **sambanova**: model_added — `8` → `9` (2026-05-05T02:48)
+- **openrouter**: model_added — `371` → `372` (2026-05-05T02:48)
 - **cerebras**: status_change — `degrading` → `stable` (2026-05-04T08:31)
 - **cerebras**: status_change — `stable` → `degrading` (2026-05-04T02:56)
 - **openrouter**: model_added — `369` → `371` (2026-05-01T03:29)
@@ -32,9 +35,6 @@
 - **mistral**: model_removed — `65` → `64` (2026-04-30T13:57)
 - **openrouter**: model_removed — `369` → `368` (2026-04-30T02:58)
 - **mistral**: model_added — `60` → `65` (2026-04-29T19:27)
-- **mistral**: models_count_changed — `62` → `64` (2026-04-29T08:20)
-- **openrouter**: model_removed — `371` → `369` (2026-04-29T02:57)
-- **openrouter**: model_added — `367` → `371` (2026-04-28T19:42)
 
 ## What is this?
 

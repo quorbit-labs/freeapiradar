@@ -1808,5 +1808,35 @@
     "change_type": "status_change",
     "detected_at": "2026-05-04T08:31:00.899260+00:00",
     "provider": "cerebras"
+  },
+  {
+    "field": "models",
+    "old_value": 371,
+    "new_value": 372,
+    "change_type": "model_added",
+    "detail": [
+      "mistralai/mistral-medium-3-5"
+    ],
+    "detected_at": "2026-05-05T02:48:48.730513+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 8,
+    "new_value": 9,
+    "change_type": "model_added",
+    "detail": [
+      "MiniMax-M2.7"
+    ],
+    "detected_at": "2026-05-05T02:48:48.730633+00:00",
+    "provider": "sambanova"
+  },
+  {
+    "field": "status",
+    "old_value": "stable",
+    "new_value": "down",
+    "change_type": "status_change",
+    "detected_at": "2026-05-05T02:48:48.730677+00:00",
+    "provider": "cohere"
   }
 ]
