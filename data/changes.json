@@ -1846,5 +1846,25 @@
     "change_type": "status_change",
     "detected_at": "2026-05-05T08:11:37.092259+00:00",
     "provider": "cohere"
+  },
+  {
+    "field": "models",
+    "old_value": 372,
+    "new_value": 374,
+    "change_type": "model_added",
+    "detail": [
+      "openai/gpt-chat-latest",
+      "microsoft/phi-4-mini-instruct"
+    ],
+    "detected_at": "2026-05-05T19:21:22.219157+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "status",
+    "old_value": "stable",
+    "new_value": "down",
+    "change_type": "status_change",
+    "detected_at": "2026-05-05T19:21:22.219311+00:00",
+    "provider": "cohere"
   }
 ]
