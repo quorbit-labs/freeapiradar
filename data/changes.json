@@ -1924,5 +1924,13 @@
     "change_type": "status_change",
     "detected_at": "2026-05-06T14:13:47.519892+00:00",
     "provider": "mistral"
+  },
+  {
+    "field": "status",
+    "old_value": "degrading",
+    "new_value": "stable",
+    "change_type": "status_change",
+    "detected_at": "2026-05-06T19:47:12.916319+00:00",
+    "provider": "mistral"
   }
 ]
