@@ -2009,5 +2009,28 @@
     ],
     "detected_at": "2026-05-07T14:11:08.899272+00:00",
     "provider": "sambanova"
+  },
+  {
+    "field": "models",
+    "old_value": 368,
+    "new_value": 369,
+    "change_type": "model_added",
+    "detail": [
+      "google/gemini-3.1-flash-lite",
+      "inclusionai/ling-2.6-1t"
+    ],
+    "detected_at": "2026-05-07T19:43:42.833266+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 368,
+    "new_value": 369,
+    "change_type": "model_removed",
+    "detail": [
+      "inclusionai/ling-2.6-1t:free"
+    ],
+    "detected_at": "2026-05-07T19:43:42.833266+00:00",
+    "provider": "openrouter"
   }
 ]
