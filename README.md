@@ -2,29 +2,31 @@
 
 > Don't guess. Know which free AI APIs work — right now.
 
-**8/12 providers responding** · Last checked: 2026-05-07 02:55 UTC
+**7/12 providers responding** · Last checked: 2026-05-07 08:35 UTC
 
 ## Current Status
 
 | Status | Provider | Confidence | Latency | Models | Notes |
 |--------|----------|------------|---------|--------|-------|
-| 🟢 | **Groq** | 100 | 109ms | 16 |  |
-| 🟢 | **Cerebras** | 100 | 103ms | 4 |  |
-| 🟢 | **SambaNova** | 100 | 297ms | 9 |  |
-| 🟢 | **Mistral** | 100 | 382ms | 68 |  |
-| 🟢 | **Cohere** | 100 | 377ms | 20 |  |
-| 🟢 | **Fireworks AI** | 100 | 521ms | 11 |  |
+| 🟢 | **Groq** | 100 | 100ms | 16 |  |
+| 🟢 | **Cerebras** | 100 | 82ms | 4 |  |
+| 🟢 | **Mistral** | 100 | 379ms | 68 |  |
+| 🟢 | **Cohere** | 100 | 288ms | 20 |  |
+| 🟢 | **Fireworks AI** | 100 | 418ms | 11 |  |
+| 🔴 | **SambaNova** | 90 | 30041ms | 0 |  |
 | ⚪ | **DeepSeek** | 50 | — | — |  |
 | ⚪ | **xAI Grok** | 50 | — | — |  |
 | ⚪ | **Together AI** | 50 | — | — |  |
 | ⚪ | **Cloudflare Workers AI** | 50 | — | — |  |
-| 🟡 | **Google AI Studio** | 20 | 103ms | 32 |  |
-| 🟡 | **OpenRouter** | 20 | 342ms | 368 |  |
+| 🟡 | **Google AI Studio** | 20 | 83ms | 32 |  |
+| 🟡 | **OpenRouter** | 20 | 192ms | 368 |  |
 
 **Legend:** 🟢 stable · 🟡 degrading · 🔴 down · ⚪ unknown
 
 ## Recent Changes
 
+- **sambanova**: model_removed — `9` → `0` (2026-05-07T08:35)
+- **sambanova**: status_change — `stable` → `down` (2026-05-07T08:35)
 - **openrouter**: model_removed — `370` → `368` (2026-05-07T02:55)
 - **mistral**: status_change — `degrading` → `stable` (2026-05-06T19:47)
 - **mistral**: status_change — `stable` → `degrading` (2026-05-06T14:13)
@@ -33,8 +35,6 @@
 - **openrouter**: model_removed — `374` → `369` (2026-05-06T02:54)
 - **google_ai**: model_removed — `38` → `32` (2026-05-06T02:54)
 - **cohere**: status_change — `stable` → `down` (2026-05-05T19:21)
-- **openrouter**: model_added — `372` → `374` (2026-05-05T19:21)
-- **cohere**: status_change — `down` → `stable` (2026-05-05T08:11)
 
 ## What is this?
 
