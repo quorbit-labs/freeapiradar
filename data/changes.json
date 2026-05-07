@@ -1971,5 +1971,43 @@
     ],
     "detected_at": "2026-05-07T08:35:38.736783+00:00",
     "provider": "sambanova"
+  },
+  {
+    "field": "models",
+    "old_value": 32,
+    "new_value": 33,
+    "change_type": "model_added",
+    "detail": [
+      "gemini-3.1-flash-lite"
+    ],
+    "detected_at": "2026-05-07T14:11:08.899123+00:00",
+    "provider": "google_ai"
+  },
+  {
+    "field": "status",
+    "old_value": "down",
+    "new_value": "stable",
+    "change_type": "status_change",
+    "detected_at": "2026-05-07T14:11:08.899272+00:00",
+    "provider": "sambanova"
+  },
+  {
+    "field": "models",
+    "old_value": 0,
+    "new_value": 9,
+    "change_type": "model_added",
+    "detail": [
+      "DeepSeek-V3.2",
+      "MiniMax-M2.5",
+      "DeepSeek-V3.1-cb",
+      "Meta-Llama-3.3-70B-Instruct",
+      "gemma-3-12b-it",
+      "MiniMax-M2.7",
+      "DeepSeek-V3.1",
+      "gpt-oss-120b",
+      "Llama-4-Maverick-17B-128E-Instruct"
+    ],
+    "detected_at": "2026-05-07T14:11:08.899272+00:00",
+    "provider": "sambanova"
   }
 ]
