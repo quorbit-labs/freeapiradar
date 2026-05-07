@@ -1932,5 +1932,17 @@
     "change_type": "status_change",
     "detected_at": "2026-05-06T19:47:12.916319+00:00",
     "provider": "mistral"
+  },
+  {
+    "field": "models",
+    "old_value": 370,
+    "new_value": 368,
+    "change_type": "model_removed",
+    "detail": [
+      "nvidia/nemotron-nano-12b-v2-vl",
+      "allenai/olmo-3.1-32b-instruct"
+    ],
+    "detected_at": "2026-05-07T02:55:21.544522+00:00",
+    "provider": "openrouter"
   }
 ]
