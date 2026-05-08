@@ -2044,5 +2044,27 @@
     ],
     "detected_at": "2026-05-08T02:57:32.322016+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 367,
+    "new_value": 367,
+    "change_type": "model_added",
+    "detail": [
+      "inclusionai/ring-2.6-1t:free"
+    ],
+    "detected_at": "2026-05-08T19:19:28.494510+00:00",
+    "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 367,
+    "new_value": 367,
+    "change_type": "model_removed",
+    "detail": [
+      "tngtech/deepseek-r1t2-chimera"
+    ],
+    "detected_at": "2026-05-08T19:19:28.494510+00:00",
+    "provider": "openrouter"
   }
 ]
