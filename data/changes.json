@@ -2032,5 +2032,17 @@
     ],
     "detected_at": "2026-05-07T19:43:42.833266+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 369,
+    "new_value": 367,
+    "change_type": "model_removed",
+    "detail": [
+      "mistralai/mixtral-8x7b-instruct",
+      "nvidia/llama-3.1-nemotron-70b-instruct"
+    ],
+    "detected_at": "2026-05-08T02:57:32.322016+00:00",
+    "provider": "openrouter"
   }
 ]
