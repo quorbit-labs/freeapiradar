@@ -2104,5 +2104,16 @@
     "change_type": "status_change",
     "detected_at": "2026-05-09T07:57:45.981982+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "models",
+    "old_value": 9,
+    "new_value": 8,
+    "change_type": "model_removed",
+    "detail": [
+      "DeepSeek-V3.1-cb"
+    ],
+    "detected_at": "2026-05-09T19:02:53.953344+00:00",
+    "provider": "sambanova"
   }
 ]
