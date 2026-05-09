@@ -2096,5 +2096,13 @@
     ],
     "detected_at": "2026-05-09T02:53:39.908103+00:00",
     "provider": "openrouter"
+  },
+  {
+    "field": "status",
+    "old_value": "stable",
+    "new_value": "degrading",
+    "change_type": "status_change",
+    "detected_at": "2026-05-09T07:57:45.981982+00:00",
+    "provider": "openrouter"
   }
 ]
